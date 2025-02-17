@@ -1,0 +1,197 @@
+body {
+    background-color: #EEE;
+    height: 110vh;
+}
+
+.navbars {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background: #F5F2F2;
+    height: 35px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.logos {
+    width: 60px;
+    height: 40px;
+}
+
+.nl {
+    text-decoration: none;
+}
+
+.nl h5 {
+    margin-left: 10px;
+    color: #794646;
+    transform: translate(0%, 7%);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 24px;
+    font-family: Inter;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.menu-container {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.menuimgg {
+    width: 24px;
+    height: 24px;
+    margin-right: 0.5rem;
+}
+
+.Menu {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: none;
+    border: none;
+    color: #794646;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.overall {
+    transform: translate(0, 0px);
+    padding: 4rem;
+}
+
+.home {
+    margin-bottom: 2rem;
+}
+
+.helper{
+  color: var(--Color, #794646);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke-width: 1;
+  -webkit-text-stroke-color: #FFF;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.contains,
+.containss {
+    width: 100%;
+    background-color: #FFFEFE;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 2rem auto;
+    padding: 2rem;
+    position: relative;
+    height: auto;
+    min-height: 200px;
+    transition: all 0.3s ease;
+}
+
+.sets {
+    color: #794646;
+    font-weight: 700;
+    font-family: arial;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 3rem;
+}
+
+.user {
+    color: #794646;
+    font-family: arial;
+    font-weight: 700;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+
+.number {
+    color: #794646;
+    font-family: arial;
+    font-weight: 700;
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+
+ .Trash {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    bottom: 20px;
+    cursor: pointer;
+}
+
+.Edit {
+    transform: translate(0%, -65%);
+    right: 60px;
+}
+
+.Trash {
+    right: 20px;
+}
+.Edit:hover{
+    opacity: 0.8;
+    transition: all 0.2s ease;
+}
+/* Add transitions for smoother interactions */
+.Trash:hover {
+    opacity: 0.8;
+    transition: all 0.2s ease;
+}
+
+.contains,
+.containss {
+    transition: all 0.3s ease;
+}
+
+.contains:hover,
+.containss:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Add these styles for the logo link */
+.router-link-active.logo-link,
+.router-link-exact-active.logo-link {
+    background-color: transparent !important;
+    text-decoration: none !important;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.logo-link:hover {
+    background-color: transparent !important;
+}
+
+/* Override router-link-active styles for logo and brand */
+.router-link-active.nl,
+.router-link-exact-active.nl {
+    background-color: transparent !important;
+    text-decoration: none !important;
+}
+
+/* Also prevent any hover effects if needed */
+.nl:hover {
+    background-color: transparent !important;
+    text-decoration: none !important;
+}
+

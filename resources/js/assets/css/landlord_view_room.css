@@ -1,0 +1,292 @@
+body {
+    background-color: #EEE;
+    height: 110vh;
+}
+
+.navbar {
+    margin: 0;
+    width: auto;
+    height: 55px;
+    background-color: #F5F2F2;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.logo {
+    width: 60px;
+    height: 40px;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+h5 {
+    margin-left: 10px; 
+    color: #794646;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.sign-container {
+    display: flex;
+    align-items: center;
+    margin-left: 130svb;
+}
+
+.signlogo {
+    width: 30px;
+    margin-right: 4px;
+}
+
+.sign {
+    color: #794646;
+    font-size: 16px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.menu-container {
+    display: flex;
+    align-items: center;
+    position: relative; 
+    cursor: pointer;
+    margin-left: auto; 
+}
+
+.Menu {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: none;
+    border: none;
+    color: #794646;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.Menu::-ms-expand {
+    display: none; 
+}
+
+.Menu option {
+    background-color: #EEE;
+    color: #794646;
+}
+
+.nl{
+    text-decoration: none;
+}
+
+.sidebar{
+    width: 250px;
+    height: 100vh;
+    background: #F5F2F2;
+}
+
+.sidebar{
+    position: relative;
+}
+
+.back-link {
+    margin-top: 16px;
+    margin-left: 15px;
+    text-decoration: none;
+    color: blue;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+}
+
+.sidebar {
+    width: 220px;
+    background-color: #f5f5f5;
+    padding: 15px;
+    position: relative;
+    left: 0;
+    height: 100%;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    display: block;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+.title{
+    color: #794646;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: arial;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 700;
+    transform: translate(48px, -42px);
+    width: 150px;
+}
+
+.logoe{
+    width: 40px;
+}
+
+.rooms{
+    color: #794646;
+    width: 30px;
+    transform: translate(49px, -48px);
+}
+
+.reviews{
+    color: #794646;
+    width: 30px;
+    transform: translate(49px, -58px);
+}
+
+.logout{
+    color: #794646;
+    width: 30px;
+    transform: translate(49px, -68px);
+}
+
+.rooms-logo{
+    width: 23px;
+    transform: translate(19px, -24px);
+}
+
+.reviews-logo{
+    width: 24px;
+    transform: translate(19px, -35.5px);
+}
+
+.logout-logo{
+    width: 20px;
+    transform: translate(22px, -45px);
+}   
+
+.admin {
+    width: 70%;
+    background-color: #FFFEFE;
+    border: 1px solid black;
+    border-radius: 10px;
+    transform: translate(34%, -132%);
+    height: 80vh;
+    display: grid;
+}
+
+.sets {
+    color: #794646;
+    font-weight: 700;
+    font-family: arial;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 28px;
+    grid-column: span 8;
+}
+
+.user, .number {
+    color: #794646;
+    font-family: arial;
+    font-weight: 700;
+    margin: 0;
+    transform: translate(42%, -900%);
+}
+
+.user {
+    margin-bottom: 5px;
+}
+
+.number {
+    margin-bottom: 15px;
+}
+
+.Edit, .Trash {
+    width: 25px;
+    height: 25px;
+    margin: 0 10px;
+    cursor: pointer;
+    transform: translate(90%, -597%);
+}
+
+.rooms-dropdown {
+    width: 200px;
+    display: none;
+    padding: 0;
+    margin: none;
+    transform: translate(40px, -35px);
+}
+
+.rooms-dropdown li {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+    transform: translate(-2px, -3px);
+}
+
+.rooms-dropdown li a {
+    width: 200px;
+    text-decoration: none;
+    color: #794646;
+}
+
+.rooms-option{
+    transform: translate(-5px, 6px);
+    width: 100px;
+}
+
+.rooms-options{
+    transform: translate(-5px, 1px);
+    width: 200px;
+}
+
+.rooms-optionss{
+    transform: translate(-5px, -5px);
+    width: 100px;
+}
+
+.dropdown-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    transform: translate(-4px, 4.7px);
+}
+
+.dropdown-icons{
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    transform: translate(-4px, 0.8px);
+}
+
+.dropdown-iconss{
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    transform: translate(-4px, -6.5px);
+}

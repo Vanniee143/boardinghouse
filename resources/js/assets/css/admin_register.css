@@ -1,0 +1,258 @@
+/* Base styles */
+body {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.navbars {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 55px;
+  background: #F5F2F2;
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.logo {
+  width: 60px;
+  height: 40px;
+}
+
+.nl {
+  text-decoration: none;
+}
+
+h5 {
+    transform: translate(0%, 18%);
+    margin-left: 10px; 
+    color: #794646;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 24px;
+    font-style: italic;
+    font-family: Inter;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Main content layout */
+.overall {
+  padding-top: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+  transform: translate(0%, 3%);
+}
+
+/* Left side content */
+.contain {
+  width: 400px;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    color: #794646;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: Inter;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.conimg {
+  width: 100%;
+  max-width: 200px;
+  display: block;
+  margin: 0 auto 1.5rem;
+}
+
+.infors {
+  text-align: center;
+}
+
+.info {
+  color: #794646;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.info1 {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Registration form */
+.forms {
+  width: 500px;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.text {
+  color: #794646;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.email, .date {
+  width: 90%;
+  padding: 0.75rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  font-size: 16px;
+  transition: border-color 0.2s;
+}
+
+.email:focus, .date:focus {
+  border-color: #794646;
+  outline: none;
+}
+
+/* File upload styling */
+.custom-file-upload {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem;
+  background: #f8f9fa;
+  border: 2px dashed #794646;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+}
+
+.upload-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.file {
+  display: none;
+}
+
+.file-name {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 1rem;
+}
+
+/* Date picker wrapper */
+.date-wrapper {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.calendar-icon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+/* Gender selection */
+.gender {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.gender input[type="radio"] {
+  width: 18px;
+  height: 18px;
+  accent-color: #794646;
+}
+
+/* Submit button */
+.button {
+  width: 100%;
+  padding: 1rem;
+  background: #794646;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.button:hover {
+  background: #5d3535;
+}
+
+/* Login link */
+.text1 {
+  text-align: center;
+  margin-top: 1rem;
+  color: #666;
+}
+
+.an {
+  color: #794646;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.an:hover {
+  text-decoration: underline;
+}
+
+/* Error message */
+.error-message {
+  background: #fde8e8;
+  color: #dc2626;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* Responsive design */
+@media (max-width: 1024px) {
+  .overall {
+    flex-direction: column;
+    align-items: center;
+    padding: 85px 1rem 2rem;
+  }
+
+  .contain, .forms {
+    width: 100%;
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbars {
+    padding: 0 1rem;
+  }
+
+  .nl h5 {
+    font-size: 20px;
+  }
+
+  .forms, .contain {
+    padding: 1.5rem;
+  }
+}

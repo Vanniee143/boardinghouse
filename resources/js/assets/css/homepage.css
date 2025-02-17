@@ -1,0 +1,833 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 130vh;
+    background-color: #EEE;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 65px;
+    background-color: #F5F2F2;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    margin: 0;
+    z-index: 1000; /* Ensure it stays on top of other content */
+}
+
+.overall{
+    transform: translate(0%, 20%);
+}
+
+.logo {
+    width: 60px;
+    height: 40px;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+h5 {
+    transform: translate(0%, 0%);
+    margin-left: 10px; 
+    color: #794646;
+    font-size: 24px;
+    font-style: italic;
+    font-family: Inter;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.sign-container {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.signlogo {
+    width: 30px;
+    margin-right: 4px;
+}
+
+.sign {
+    color: #794646;
+    font-size: 16px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.loginlogo {
+    width: 30px;
+    margin-right: 4px;
+}
+
+.login {
+    color: #794646;
+    font-size: 16px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.login-container{
+    display: flex;
+    align-items: center;
+    margin-left: 108svb;
+}
+
+.menu-container {
+    display: flex;
+    align-items: center;
+    position: relative; 
+    cursor: pointer;
+    margin-left: auto; 
+}
+
+.Menu {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: none;
+    border: none;
+    color: #794646;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.Menu::-ms-expand {
+    display: none; 
+}
+
+.Menu option {
+    background-color: #EEE;
+    color: #794646;
+}
+
+.menuimg {
+    width: 22px;
+    height: auto;
+    transform: translate(-20px, 20px);
+}
+
+.menuimgg{
+    width: 30px;
+    height: auto;
+}
+
+.loogo{
+    margin-right: 7px;
+    width: 33px;
+    transform: translate(10px);
+}
+
+.sidebar{
+    width: 250px;
+    height: 100vh;
+    background: #F5F2F2;
+}
+
+.sidebar{
+    position: relative;
+}
+
+.back-link {
+    margin-top: 16px;
+    margin-left: 15px;
+    text-decoration: none;
+    color: blue;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+}
+
+.recent{
+    margin-top: 16px;
+    margin-left: 40px;
+    text-decoration: none;
+    color: #794646;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+}
+
+.help{
+    margin-top: 16px;
+    margin-left: 40px;
+    text-decoration: none;
+    color: #794646;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+}
+
+.sidebar {
+    width: 220px;
+    background-color: #f5f5f5;
+    padding: 15px;
+    position: relative;
+    left: 0;
+    height: 100%;
+}
+
+.sidebar ul {
+
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    display: block;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+.home{
+    transform: translate(6%, 15%);
+    width: 1000px;
+}
+
+.helper{
+    color: var(--Color, #794646);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.tex{
+    width: 500px;
+    transform: translate(0%, 0%);
+    color: #794646;
+    font-family: arial;
+}
+
+.nl{
+    text-decoration: none;
+}
+
+.search-bar{
+    width: 1200px;
+    height: 88px;
+    background: #e3e2e2;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transform: translate(135px, 100px);   
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1005;
+}
+
+.search-logo{
+    width: 40px;
+    transform: translate(18px);
+}
+
+.search{
+    margin-left: 20px;
+    padding: 10px;
+    background: none;
+    border: none;
+    width: 300px;
+    height: auto;
+}
+
+.vertical-line {
+    width: 1px; 
+    background-color: #B6B6B6;
+    height: 88px;
+    margin: 0 10px; 
+}
+
+.time_in, .time_out {
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: #5F5F5F;
+    width: 120px;
+    padding: 10px;
+    font-family: Arial;
+    font-size: 14px;
+    text-align: center;
+    outline: none;
+}
+
+.time_in::placeholder,
+.time_out::placeholder {
+    color: #5F5F5F;
+    opacity: 1;
+}
+
+.time_in:empty::before,
+.time_out:empty::before {
+    content: none;
+}
+
+.time_in[value],
+.time_out[value] {
+    color: #5F5F5F;
+}
+
+.time_in:not([value]),
+.time_out:not([value]) {
+    color: #5F5F5F;
+}
+
+.time_in {
+    transform: translate(-40px, 13px);
+}
+
+.time_out {
+    transform: translate(-40px, 13px);
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+  }
+
+  input[type="date"] {
+    -moz-appearance: textfield;
+  }
+
+  input[type="date"]::-ms-clear {
+    display: none;
+  }
+
+  input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+/* Update input styling */
+.size, .sizes, .sizee {
+    width: 40px;
+    text-align: center;
+    background-color: #FFF;
+    border: 1px solid #794646;
+    padding: 4px;
+    margin: 0 10px;
+    border-radius: 4px;
+}
+
+/* Update button styling */
+.buts, .butse, .butsr, .butsre, .butsv, .butses {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 1px solid #794646;
+    background-color: #FFF;
+    color: #794646;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.buts:hover, .butse:hover, .butsr:hover, .butsre:hover, .butsv:hover, .butses:hover {
+    background-color: #794646;
+    color: #FFF;
+}
+
+.buts:disabled, .butse:disabled, .butsr:disabled, .butsre:disabled, .butsv:disabled, .butses:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Update action buttons */
+.but {
+    transform: translate(-117px, 0%);
+    background: none;
+    border: none;
+    color: #794646;
+    font-family: Arial;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 8px 12px;
+    margin-right: 10px;
+}
+
+.but:hover {
+    color: #333232;
+}
+
+.butss {
+    background-color: black;
+    color: #FFF;
+    border: none;
+    padding: 2px 10 px;
+    border-radius: 4px;
+    font-family: Arial;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.butss:hover {
+    background-color: #333232;
+}
+
+/* Add action buttons container */
+.items:last-child {
+    margin-top: 20px;
+    justify-content: flex-end;
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+}
+
+.cons {
+    transform: translate(10%, -5%);
+    position: absolute;
+    top: 100%;  /* Position it below the trigger */
+    right: 0;   /* Align to the right */
+    background: #F5F2F2;
+    width: 280px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    z-index: 1012;
+    margin-top: 10px;
+}
+
+.cals{
+    font-size: 14px;
+    font-family: arial;
+    color: #5F5F5F;
+    cursor: pointer;
+    transform: translate(12px);
+    margin-right: 20px;
+}
+
+.button{
+    background-color: black;
+    color: white;
+    min-width: 60px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-family: Arial;
+    font-size: 14px;
+    margin-left: auto;
+    transform: none;
+    transition: background-color 0.2s ease;
+  }
+
+  .button:hover{
+    background-color: rgb(43, 42, 42);
+  }
+
+  .but{
+    transform: translate (8%, 10%);
+    font-size: 14px;
+    background-color: transparent;
+    font-family: arial;
+    border: none;
+    color: black;
+    cursor: pointer;
+  }
+
+/* Optimize items styling */
+.items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.items label {
+    color: black;
+    font-family: Arial;
+    font-size: 14px;
+    min-width: 60px;
+}
+  .footer{
+    transform: translate(0%, 230%);
+    background: #F5F2F2;
+    height: 23vh;
+    margin-top: auto;
+    width: 100%;
+    z-index: 1000;
+    position: relative;
+}
+
+.icons{
+    width: 40px;
+    color: #5F5F5F;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+.icons {
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.icons:hover {
+    opacity: 0.8;
+}
+
+.footer-title{
+    color: #794646;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: arial;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.social{
+    transform: translate(-5%, 10%);
+    width: 30%;
+}
+
+.searchitem{
+    color: #794646;
+    font-family: arial;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.search-display{
+    color: #794646;
+    font-family: arial;
+    font-weight: 700;
+    font-size: 14px;
+    transform: translate(0%, 60%);
+}
+
+.searchI {
+    transform: translate(90%, 250%);
+    width: 150px;
+}
+
+.infos{
+    color: #794646;
+    font-family: arial;
+    font-size: 14px;
+    font-weight: 700;
+    width: 150px;
+    transform: translate(300%, -95%);
+}
+
+
+.infos2{
+    color: #794646;
+    font-family: arial;
+    font-size: 14px;
+    font-weight: 700;
+    width: 250px;
+    transform: translate(280%, -234%);
+}
+
+/* Add these styles to align the icons */
+.infos p, .infos2 p {
+    margin: 1rem 0;
+    color: #794646;
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+  
+  .infos p:hover, .infos2 p:hover {
+    color: #666;
+  }
+
+.copywright{
+    color: #794646;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: arial;
+    font-size: 12px;
+    font-weight: 700;
+    transform: translate(270%, -872%);
+    width: 400px;
+}
+
+.reminder {
+    transform: translate(0%, -9%);
+    position: fixed; /* Position it to cover the whole screen */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 154.2vh;
+    background-color: rgba(119, 118, 118, 0.5); /* Semi-transparent dark background */
+    display: flex; /* Use flexbox to center content */
+    justify-content: center;
+    align-items: center;
+    z-index: 1020;
+}
+
+.container {
+    width: 50%;
+    height: 44%;
+    color: #794646;
+    font-family: arial;
+    background: #c8c8c8; /* White background with some transparency */
+    border-radius: 10px; /* Rounded corners for aesthetic */
+    padding: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    text-align: center; /* Center text */
+    backdrop-filter: blur(10px); /* This creates the blurry effect */
+    transform: translate(0%, -35%);
+}
+.signup{
+    color: blue;
+}
+
+.smile{
+    transform: translate(20px, 30px);
+    width: 500px;
+}
+
+.x{
+    width: 30px;
+    transform: translate(465px, -405px);
+}
+
+.pase{
+    transform: translate(0%, 220%);
+}
+
+/* Update booking controls container */
+.booking-controls {
+    position: relative;
+    z-index: 1010;
+}
+
+/* Add pointer cursor to the label */
+.cals {
+    cursor: pointer;
+}
+
+/* Guest controls styling */
+.guest-controls-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.cons {
+  position: absolute;
+  top: calc(100% + 10px);
+  right: 0;
+  background: #F5F2F2;
+  width: 280px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  z-index: 1012;
+}
+
+.items {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  gap: 10px;
+}
+
+.items label {
+  min-width: 70px;
+  color: #794646;
+  font-family: Arial;
+  font-size: 14px;
+}
+
+.size, .sizes, .sizee {
+  width: 40px;
+  text-align: center;
+  background-color: #FFF;
+  border: 1px solid #794646;
+  padding: 4px;
+  border-radius: 4px;
+  -moz-appearance: textfield;
+}
+
+.size::-webkit-inner-spin-button,
+.sizes::-webkit-inner-spin-button,
+.sizee::-webkit-inner-spin-button,
+.size::-webkit-outer-spin-button,
+.sizes::-webkit-outer-spin-button,
+.sizee::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.buts, .butse, .butsr, .butsre, .butsv, .butses {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1px solid #794646;
+  background-color: #FFF;
+  color: #794646;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.buts:hover:not(:disabled),
+.butse:hover:not(:disabled),
+.butsr:hover:not(:disabled),
+.butsre:hover:not(:disabled),
+.butsv:hover:not(:disabled),
+.butses:hover:not(:disabled) {
+  background-color: #794646;
+  color: #FFF;
+}
+
+.buts:disabled,
+.butse:disabled,
+.butsr:disabled,
+.butsre:disabled,
+.butsv:disabled,
+.butses:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.control-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid #ddd;
+}
+
+.cals {
+  font-size: 14px;
+  font-family: arial;
+  color: #5F5F5F;
+  cursor: pointer;
+  padding: 5px 10px;
+  display: inline-block;
+}
+
+/* Ensure proper z-index stacking */
+.booking-controls {
+  position: relative;
+  z-index: 1010;
+}
+
+/* Update date picker styling */
+.date-picker-container {
+    position: relative;
+    display: inline-block;
+}
+
+.time_in, .time_out {
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: #5F5F5F;
+    width: 120px;
+    padding: 10px;
+    font-family: Arial;
+    font-size: 14px;
+    text-align: center;
+    outline: none;
+}
+
+.time_in::placeholder,
+.time_out::placeholder {
+    color: #5F5F5F;
+    opacity: 1;
+}
+
+.time_in:empty::before,
+.time_out:empty::before {
+    content: none;
+}
+
+.time_in[value],
+.time_out[value] {
+    color: #5F5F5F;
+}
+
+.time_in:not([value]),
+.time_out:not([value]) {
+    color: #5F5F5F;
+}
+
+
+.cal {
+    font-size: 14px;
+    font-family: arial;
+    transform: translate(33px, -17px);
+    cursor: pointer;
+    color: #5F5F5F;
+}
+
+.cale {
+    font-size: 14px;
+    font-family: arial;
+    transform: translate(20px, -17px);
+    cursor: pointer;
+    color: #5F5F5F;
+}
+
+/* Hide default calendar picker indicator */
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+}
+
+input[type="date"] {
+    -moz-appearance: textfield;
+}
+
+input[type="date"]::-ms-clear {
+    display: none;
+}
+
+/* Add these styles to prevent router-link-active styling */
+.logo-link.router-link-active,
+.logo-link.router-link-exact-active,
+.brand-link.router-link-active,
+.brand-link.router-link-exact-active {
+    background-color: transparent !important;
+    text-decoration: none !important;
+}

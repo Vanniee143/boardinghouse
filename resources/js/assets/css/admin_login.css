@@ -1,0 +1,258 @@
+/* Base styles */
+body {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.navbars {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 55px;
+  background: #F5F2F2;
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.logo {
+    width: 60px;
+    height: 40px;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nl {
+  text-decoration: none;
+}
+
+h5 {
+    transform: translate(0%, 18%);
+    margin-left: 10px; 
+    color: #794646;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 24px;
+    font-style: italic;
+    font-family: Inter;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Main content layout */
+.overall {
+  padding-top: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+  transform: translate(0%, 13%);
+}
+
+/* Left side content */
+.contain {
+  width: 400px;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  color: #794646;
+  font-size: 28px;
+  font-weight: 700;
+  font-family: Inter;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.conimg {
+  width: 100%;
+  max-width: 200px;
+  display: block;
+  margin: 0 auto 1.5rem;
+}
+
+.infors {
+  text-align: center;
+}
+
+.info {
+  color: #794646;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.info1 {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Login form */
+.inputs {
+  width: 400px;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.text {
+  color: #794646;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.input1 {
+  width: 93%;
+  padding: 0.75rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  font-size: 16px;
+  transition: border-color 0.2s;
+}
+
+.input1:focus {
+  border-color: #794646;
+  outline: none;
+}
+
+/* Login button */
+.input2 {
+  width: 100%;
+  padding: 1rem;
+  background: #794646;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-bottom: 1rem;
+}
+
+.input2:hover {
+  background: #5d3535;
+}
+
+/* Forgot password link */
+.text2 {
+  display: block;
+  text-align: center;
+  color: #794646;
+  text-decoration: none;
+  font-size: 14px;
+  margin-bottom: 1rem;
+}
+
+.text2:hover {
+  text-decoration: underline;
+}
+
+/* Sign up link */
+.text1 {
+  text-align: center;
+  color: #666;
+}
+
+.a {
+  color: #794646;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.a:hover {
+  text-decoration: underline;
+}
+
+/* Error message */
+.error-message {
+  background: #fde8e8;
+  color: #dc2626;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* Responsive design */
+@media (max-width: 1024px) {
+  .overall {
+    flex-direction: column;
+    align-items: center;
+    padding: 85px 1rem 2rem;
+  }
+
+  .contain, .inputs {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbars {
+    padding: 0 1rem;
+  }
+
+  .nl h5 {
+    font-size: 20px;
+  }
+
+  .inputs, .contain {
+    padding: 1.5rem;
+  }
+}
+
+/* Add these styles for the logo link */
+.router-link-active.logo-link,
+.router-link-exact-active.logo-link {
+    background-color: transparent !important;
+    text-decoration: none !important;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.logo-link:hover {
+    background-color: transparent !important;
+}
+
+/* Override router-link-active styles for logo and brand */
+.router-link-active.nl,
+.router-link-exact-active.nl {
+    background-color: transparent !important;
+    text-decoration: none !important;
+}
+
+/* Also prevent any hover effects if needed */
+.nl:hover {
+    background-color: transparent !important;
+    text-decoration: none !important;
+}
+
+/* Ensure the h5 inside router-link maintains its style */
+.nl h5 {
+    transform: translate(0%, 18%);
+    margin-left: 10px; 
+    color: #794646;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 24px;
+    font-style: italic;
+    font-family: Inter;
+    font-weight: 700;
+}

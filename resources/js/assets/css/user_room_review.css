@@ -1,0 +1,412 @@
+body {
+    background-color: #EEE;
+    height: 110vh;
+}
+
+/* Navbar styles - matching BHList.vue */
+.navbars {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background: #F5F2F2;
+    height: 35px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.logos {
+    width: 60px;
+    height: 40px;
+}
+
+.nl {
+    text-decoration: none;
+}
+
+.nl h5 {
+    margin-left: 10px;
+    color: #794646;
+    transform: translate(0%, 7%);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 24px;
+    font-family: Inter;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.sign-container {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.signlogo {
+    width: 30px;
+    margin-right: 4px;
+}
+
+.sign {
+    color: #794646;
+    font-size: 16px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.loginlogo {
+    width: 30px;
+    margin-right: 4px;
+}
+
+.login {
+    color: #794646;
+    font-size: 16px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.login-container{
+    display: flex;
+    align-items: center;
+    margin-left: 90svb;
+}
+
+.menu-container {
+    display: flex;
+    align-items: center;
+    position: relative; 
+    cursor: pointer;
+    margin-left: auto; 
+}
+
+.Menu {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: none;
+    border: none;
+    color: #794646;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.Menu::-ms-expand {
+    display: none; 
+}
+
+.menuimgg{
+    width: 30px;
+    height: auto;
+}
+
+.Menu option {
+    background-color: #EEE;
+    color: #794646;
+}
+
+/* Review section styles */
+.containss {
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 1200px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.head {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+}
+
+.insides {
+    padding: 1rem;
+}
+
+.review-items-container {
+    max-height: 300px;
+    overflow-y: auto;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+
+.review-items-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.review-items-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.review-items-container::-webkit-scrollbar-thumb {
+    background: #794646;
+    border-radius: 4px;
+}
+
+.review-items-container::-webkit-scrollbar-thumb:hover {
+    background: #623939;
+}
+
+.read {
+    color: #794646;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.review-item {
+    border-bottom: 1px solid #eee;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+}
+
+.review-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+
+.user {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 0;
+}
+
+.review-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.users {
+    color: #794646;
+    font-weight: bold;
+    margin: 0;
+}
+
+.date {
+    color: #666;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.stars {
+    margin: 8px 0;
+}
+
+.rates {
+    color: #794646;
+    margin: 5px 0;
+}
+
+.comment {
+    color: #333;
+    line-height: 1.5;
+    margin-top: 8px;
+}
+
+/* New review section */
+.new-review-section {
+    margin-top: 2rem;
+    padding: 1rem;
+    background: #f9f9f9;
+    border-radius: 8px;
+}
+
+.commentss {
+    color: #794646;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.rating-input {
+    margin-bottom: 1rem;
+}
+
+.custom-file-upload {
+    display: inline-block;
+    cursor: pointer;
+    margin: 1rem 0;
+}
+
+.upload-icon {
+    width: 30px;
+    height: 30px;
+    transform: translate(20%, -40%);
+}
+
+.file {
+    display: none;
+}
+
+.comment-input {
+    width: 95%;
+    min-height: 100px;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 1rem 0;
+    resize: vertical;
+}
+
+.buttonn {
+    background: black;
+    color: white;
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+.buttonn:hover {
+    background: #3b3b3b;
+}
+
+/* Footer styles - matching UserHomePage.vue */
+.footer{
+    transform: translate(0%, 250%);
+    background: #F5F2F2;
+    height: 23vh;
+    margin-top: auto;
+    width: 100%;
+    z-index: 1000;
+    position: relative;
+}
+
+.icons{
+    width: 40px;
+    color: #5F5F5F;
+}
+
+.icons {
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.icons:hover {
+    opacity: 0.8;
+}
+
+.helper{
+    color: var(--Color, #794646);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transform: translate(15%, -20%);
+    width: 20%;
+}
+
+.footer-title{transform: translate(4.8%);
+    margin-left: 26px;
+    color: #794646;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: arial;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.social{
+    transform: translate(15%, 60%);
+    width: 30%;
+}
+
+.infos{
+    color: #794646;
+    font-family: arial;
+    font-size: 14px;
+    font-weight: 700;
+    width: 150px;
+    transform: translate(300%, -60%);
+}
+
+
+.infos2{
+    color: #794646;
+    font-family: arial;
+    font-size: 14px;
+    font-weight: 700;
+    width: 250px;
+    transform: translate(280%, -172.5%);
+}
+
+/* Add these styles to align the icons */
+.infos p, .infos2 p {
+    margin: 1rem 0;
+    color: #794646;
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+  
+  .infos p:hover, .infos2 p:hover {
+    color: #666;
+  }
+
+.copywright{
+    color: #794646;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: arial;
+    font-size: 12px;
+    font-weight: 700;
+    transform: translate(270%, -900%);
+    width: 400px;
+}
+
+/* Profile section styles */
+.profile-section {
+    margin-left: auto;
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.profile-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.user-profile-name {
+    color: #794646;
+    font-weight: 600;
+}
