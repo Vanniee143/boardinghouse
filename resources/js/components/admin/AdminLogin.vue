@@ -12,7 +12,7 @@
     <div class="overall">
       <div class="inputs">
         <div class="image-section">
-          <img src="@/assets/images/con.png" alt="con" class="conimg hover-scale">
+          <img src="@/assets/images/cons.png" alt="con" class="conimg hover-scale">
           <div class="infors">
             <p class="info">Login to:</p>
             <p class="info1">

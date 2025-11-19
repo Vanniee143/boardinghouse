@@ -22,7 +22,7 @@
       <!-- Main content -->
       <div class="contain">
         <p class="title">SBH BOOKING</p>
-        <img src="@/assets/images/con.png" alt="con" class="conimg">
+        <img src="@/assets/images/cons.png" alt="con" class="conimg">
 
         <div class="infors">
           <p class="info">Register to:</p>
