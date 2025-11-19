@@ -1,0 +1,191 @@
+{
+  "resources/js/app.js": {
+    "file": "assets/app-CVN_SD3W.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/components/user/UserReviews.vue"
+    ],
+    "css": [
+      "assets/app-B9VCWMhp.css"
+    ],
+    "assets": [
+      "assets/profile-S0zrNHIQ.png",
+      "assets/image-C_kPXHk8.png",
+      "assets/Menu-B_Lkazna.png",
+      "assets/Edit-AMqe2IPr.png",
+      "assets/room1-C8U34CHL.png",
+      "assets/Trash-BEydStCx.png",
+      "assets/Eye-DpbiP1Ko.png",
+      "assets/cons-BRnWi4Jb.png",
+      "assets/default-house-DM9DaWHV.png",
+      "assets/Plus-XLbOAJq2.png",
+      "assets/loading-BZDBN9Kl.gif",
+      "assets/no-bookings-BSwFzx6o.png",
+      "assets/login-_9a5fPeg.png",
+      "assets/booking-0D1_t0Og.png",
+      "assets/bed-CZ2cHa0X.png",
+      "assets/search-D393deZ-.png",
+      "assets/Calendar-BZO1a3Hq.png",
+      "assets/person-DK8-lolC.png",
+      "assets/fb icon-mjkNgdlv.png",
+      "assets/Twitter Or X icon-IUmUFR_Q.png",
+      "assets/Instagram icon-BJ9IPTiG.png",
+      "assets/Youtube icon-DZ1yrcTL.png",
+      "assets/upload-DVNUPI9f.png",
+      "assets/X-LYoOqi6G.png",
+      "assets/no-reviews-ejbuR2EQ.png",
+      "assets/smile-CFC9ic7N.png",
+      "assets/Help circle-CSEhMu0C.png",
+      "assets/clarence-DUfpp28L.jpg",
+      "assets/ivan-DGp4d0pi.jpg"
+    ]
+  },
+  "resources/js/assets/images/Calendar.png": {
+    "file": "assets/Calendar-BZO1a3Hq.png",
+    "src": "resources/js/assets/images/Calendar.png"
+  },
+  "resources/js/assets/images/Edit.png": {
+    "file": "assets/Edit-AMqe2IPr.png",
+    "src": "resources/js/assets/images/Edit.png"
+  },
+  "resources/js/assets/images/Eye.png": {
+    "file": "assets/Eye-DpbiP1Ko.png",
+    "src": "resources/js/assets/images/Eye.png"
+  },
+  "resources/js/assets/images/Help circle.png": {
+    "file": "assets/Help circle-CSEhMu0C.png",
+    "src": "resources/js/assets/images/Help circle.png"
+  },
+  "resources/js/assets/images/Instagram icon.png": {
+    "file": "assets/Instagram icon-BJ9IPTiG.png",
+    "src": "resources/js/assets/images/Instagram icon.png"
+  },
+  "resources/js/assets/images/Menu.png": {
+    "file": "assets/Menu-B_Lkazna.png",
+    "src": "resources/js/assets/images/Menu.png"
+  },
+  "resources/js/assets/images/Plus.png": {
+    "file": "assets/Plus-XLbOAJq2.png",
+    "src": "resources/js/assets/images/Plus.png"
+  },
+  "resources/js/assets/images/Trash.png": {
+    "file": "assets/Trash-BEydStCx.png",
+    "src": "resources/js/assets/images/Trash.png"
+  },
+  "resources/js/assets/images/Twitter Or X icon.png": {
+    "file": "assets/Twitter Or X icon-IUmUFR_Q.png",
+    "src": "resources/js/assets/images/Twitter Or X icon.png"
+  },
+  "resources/js/assets/images/User.png": {
+    "file": "assets/User-5NOEtKkp.png",
+    "src": "resources/js/assets/images/User.png"
+  },
+  "resources/js/assets/images/X.png": {
+    "file": "assets/X-LYoOqi6G.png",
+    "src": "resources/js/assets/images/X.png"
+  },
+  "resources/js/assets/images/Youtube icon.png": {
+    "file": "assets/Youtube icon-DZ1yrcTL.png",
+    "src": "resources/js/assets/images/Youtube icon.png"
+  },
+  "resources/js/assets/images/bed.png": {
+    "file": "assets/bed-CZ2cHa0X.png",
+    "src": "resources/js/assets/images/bed.png"
+  },
+  "resources/js/assets/images/booking.png": {
+    "file": "assets/booking-0D1_t0Og.png",
+    "src": "resources/js/assets/images/booking.png"
+  },
+  "resources/js/assets/images/clarence.jpg": {
+    "file": "assets/clarence-DUfpp28L.jpg",
+    "src": "resources/js/assets/images/clarence.jpg"
+  },
+  "resources/js/assets/images/cons.png": {
+    "file": "assets/cons-BRnWi4Jb.png",
+    "src": "resources/js/assets/images/cons.png"
+  },
+  "resources/js/assets/images/default-house.png": {
+    "file": "assets/default-house-DM9DaWHV.png",
+    "src": "resources/js/assets/images/default-house.png"
+  },
+  "resources/js/assets/images/default-room.png": {
+    "file": "assets/room1-C8U34CHL.png",
+    "src": "resources/js/assets/images/room1.png"
+  },
+  "resources/js/assets/images/fb icon.png": {
+    "file": "assets/fb icon-mjkNgdlv.png",
+    "src": "resources/js/assets/images/fb icon.png"
+  },
+  "resources/js/assets/images/image.png": {
+    "file": "assets/image-C_kPXHk8.png",
+    "src": "resources/js/assets/images/image.png"
+  },
+  "resources/js/assets/images/ivan.jpg": {
+    "file": "assets/ivan-DGp4d0pi.jpg",
+    "src": "resources/js/assets/images/ivan.jpg"
+  },
+  "resources/js/assets/images/loading.gif": {
+    "file": "assets/loading-BZDBN9Kl.gif",
+    "src": "resources/js/assets/images/loading.gif"
+  },
+  "resources/js/assets/images/login.png": {
+    "file": "assets/login-_9a5fPeg.png",
+    "src": "resources/js/assets/images/login.png"
+  },
+  "resources/js/assets/images/no-bookings.png": {
+    "file": "assets/no-bookings-BSwFzx6o.png",
+    "src": "resources/js/assets/images/no-bookings.png"
+  },
+  "resources/js/assets/images/no-reviews.png": {
+    "file": "assets/no-reviews-ejbuR2EQ.png",
+    "src": "resources/js/assets/images/no-reviews.png"
+  },
+  "resources/js/assets/images/person.png": {
+    "file": "assets/person-DK8-lolC.png",
+    "src": "resources/js/assets/images/person.png"
+  },
+  "resources/js/assets/images/profile.png": {
+    "file": "assets/profile-S0zrNHIQ.png",
+    "src": "resources/js/assets/images/profile.png"
+  },
+  "resources/js/assets/images/room1.png": {
+    "file": "assets/room1-C8U34CHL.png",
+    "src": "resources/js/assets/images/room1.png"
+  },
+  "resources/js/assets/images/room2.png": {
+    "file": "assets/room2-Bg2gi4u4.png",
+    "src": "resources/js/assets/images/room2.png"
+  },
+  "resources/js/assets/images/search.png": {
+    "file": "assets/search-D393deZ-.png",
+    "src": "resources/js/assets/images/search.png"
+  },
+  "resources/js/assets/images/smile.png": {
+    "file": "assets/smile-CFC9ic7N.png",
+    "src": "resources/js/assets/images/smile.png"
+  },
+  "resources/js/assets/images/upload.png": {
+    "file": "assets/upload-DVNUPI9f.png",
+    "src": "resources/js/assets/images/upload.png"
+  },
+  "resources/js/components/user/UserReviews.vue": {
+    "file": "assets/UserReviews-CjcfXdWn.js",
+    "name": "UserReviews",
+    "src": "resources/js/components/user/UserReviews.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "assets": [
+      "assets/User-5NOEtKkp.png",
+      "assets/room2-Bg2gi4u4.png"
+    ]
+  },
+  "resources/sass/app.scss": {
+    "file": "assets/app-BaVMVknW.css",
+    "src": "resources/sass/app.scss",
+    "isEntry": true
+  }
+}

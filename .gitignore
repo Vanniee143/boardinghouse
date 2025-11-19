@@ -1,11 +1,11 @@
 /.phpunit.cache
 /node_modules
-/public/build
+#/public/build
 /public/hot
 /public/storage
 /storage/*.key
 /storage/pail
-/vendor
+#/vendor
 .env
 .env.backup
 .env.production
@@ -21,3 +21,6 @@ yarn-error.log
 /.nova
 /.vscode
 /.zed
+
+# Note: composer.lock IS committed to preserve exact dependency versions
+# Run 'composer install' after cloning to restore vendor directory
